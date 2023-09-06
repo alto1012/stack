@@ -18,7 +18,7 @@ public class Stack implements StackInterface {
     public Object pop() {
         Object item = peek();
         size--;
-        elements.set(size,null);
+        elements.remove(size);
         return item;
     }
 
