@@ -1,24 +1,29 @@
 package tom;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class Stack implements StackInterface {
-    private Object[] elements;
+    private List<Object> elements = new ArrayList<>();
     private int size = 0;
 
 
     public Object push(Object item) {
-        elements[size++] = item;
+        elements.add(item);
+        size++;
         return item;
     }
 
     public Object pop() {
         Object item = peek();
-        elements[--size] = null;
+        size--;
+        elements.remove(size);
         return item;
     }
 
     public Object peek() {
-        return elements[size - 1];
+        return elements.get(size - 1);
     }
 
     public int size() {
