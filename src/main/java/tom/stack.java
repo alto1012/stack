@@ -1,7 +1,7 @@
 package tom;
 
 
-public class stack implements StackInterface {
+public class Stack implements StackInterface {
     private Object[] elements;
     private int size = 0;
 
