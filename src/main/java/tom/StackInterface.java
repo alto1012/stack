@@ -5,7 +5,7 @@ public interface StackInterface {
     /**
      * Adds the given item to the top of the stack.
      */
-    void push(Object item);
+    Object push(Object item);
 
     /**
      * Removes the top item from the stack and returns it.

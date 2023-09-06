@@ -6,8 +6,9 @@ public class stack implements StackInterface {
     private int size = 0;
 
 
-    public void push(Object item) {
+    public Object push(Object item) {
         elements[size++] = item;
+        return item;
     }
 
     public Object pop() {
