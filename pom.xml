@@ -5,7 +5,7 @@
 
   <groupId>tom</groupId>
   <artifactId>stack</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
 
   <name>stack</name>
   <!-- FIXME change it to the project's website -->
@@ -28,7 +28,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/alto1012/stack.git</developerConnection>
-    <tag>stack-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
